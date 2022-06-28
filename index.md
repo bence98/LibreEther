@@ -14,4 +14,4 @@ Alexandria is based on Realtek's RTL8367S-CG.
 
 #### Revisions
 
-1.02 was drawn on 2022-06-27 in EasyEDA. You may find it at <link>
+1.02 was drawn on 2022-06-27 in EasyEDA. You may find it at [the 00_Alexandria folder](https://github.com/bence98/LibreEther/tree/main/00_Alexandria).
