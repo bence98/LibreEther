@@ -2442,7 +2442,7 @@
   (symbol (lib_id "Device:R") (at 215.9 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 111bdb84-5a53-4064-916c-fa6a7660ce64)
-    (property "Reference" "R?" (at 215.9 102.87 90)
+    (property "Reference" "R53" (at 215.9 102.87 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 215.9 105.41 90)
@@ -2459,7 +2459,7 @@
     (instances
       (project "Alexandria-ng"
         (path "/d75cf6f5-5ddc-4328-8d5c-12d6ef92ffe7"
-          (reference "R?") (unit 1)
+          (reference "R53") (unit 1)
         )
       )
     )
@@ -2474,7 +2474,7 @@
     (property "Value" "ZMM5227B-PEC" (at 241.3 114.2999 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 238.76 113.03 0)
+    (property "Footprint" "Diode_SMD:D_MiniMELF_Handsoldering" (at 238.76 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 238.76 113.03 0)
@@ -2972,7 +2972,7 @@
   (symbol (lib_id "power:+2V8") (at 208.28 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ab9ae75-98f8-49bc-89e8-cc4bf83fcafc)
-    (property "Reference" "#PWR?" (at 208.28 113.03 0)
+    (property "Reference" "#PWR0101" (at 208.28 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V8" (at 208.28 104.14 0)
@@ -2988,7 +2988,7 @@
     (instances
       (project "Alexandria-ng"
         (path "/d75cf6f5-5ddc-4328-8d5c-12d6ef92ffe7"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -3363,7 +3363,7 @@
     (property "Value" "Polyfuse" (at 215.9 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 220.98 97.79 0)
+    (property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 220.98 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "~" (at 215.9 99.06 0)
@@ -3969,7 +3969,7 @@
     (property "Value" "2u2" (at 137.16 146.05 90)
       (effects (font (size 1.27 1.27)) (justify bottom))
     )
-    (property "Footprint" "" (at 137.16 142.24 0)
+    (property "Footprint" "Inductor_SMD:L_Ferrocore_DLG-0504" (at 137.16 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 137.16 142.24 0)
@@ -4374,7 +4374,7 @@
     (property "Value" "SW_Push_Dual" (at 223.52 152.3999 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 212.09 151.13 0)
+    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" (at 212.09 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 212.09 151.13 0)
