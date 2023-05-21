@@ -4710,6 +4710,31 @@
     )
   )
 
+  (symbol (lib_id "power:+2V8") (at 109.22 39.37 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 10533e23-5a69-47b3-b860-b4e3ef288c8b)
+    (property "Reference" "#PWR066" (at 109.22 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+2V8" (at 109.22 35.56 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 109.22 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 109.22 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fe0adbe9-f931-4a65-b8ad-3982ba7d9250))
+    (instances
+      (project "Alexandria-ng"
+        (path "/d75cf6f5-5ddc-4328-8d5c-12d6ef92ffe7/775fe030-611a-432c-a4dd-ed09d01a918c"
+          (reference "#PWR066") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+3.3V") (at 184.15 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1142ced5-0d5c-4439-bbbf-0a1289a36ff6)
@@ -4849,26 +4874,26 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 109.22 181.61 0) (unit 1)
+  (symbol (lib_id "power:+2V8") (at 109.22 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1ddaa2b9-b8a1-4228-b44d-186800e3552d)
-    (property "Reference" "#PWR083" (at 109.22 185.42 0)
+    (uuid 19461884-aa9d-42c6-b115-99af91c6c812)
+    (property "Reference" "#PWR076" (at 109.22 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 109.22 176.53 0)
+    (property "Value" "+2V8" (at 109.22 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 109.22 181.61 0)
+    (property "Footprint" "" (at 109.22 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 109.22 181.61 0)
+    (property "Datasheet" "" (at 109.22 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fec64f53-eb0e-4045-a3c4-8cb4a95b4b66))
+    (pin "1" (uuid ee597bf1-c3b3-46b3-8a22-a4811fe0cbbf))
     (instances
       (project "Alexandria-ng"
         (path "/d75cf6f5-5ddc-4328-8d5c-12d6ef92ffe7/775fe030-611a-432c-a4dd-ed09d01a918c"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -4953,31 +4978,6 @@
       (project "Alexandria-ng"
         (path "/d75cf6f5-5ddc-4328-8d5c-12d6ef92ffe7/775fe030-611a-432c-a4dd-ed09d01a918c"
           (reference "R29") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 109.22 110.49 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1f70ce54-c9f8-4a60-ae27-04ea1d4b105a)
-    (property "Reference" "#PWR079" (at 109.22 114.3 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 109.22 105.41 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 109.22 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 109.22 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9f4569ec-9701-49a7-93f5-6bdf0abad56b))
-    (instances
-      (project "Alexandria-ng"
-        (path "/d75cf6f5-5ddc-4328-8d5c-12d6ef92ffe7/775fe030-611a-432c-a4dd-ed09d01a918c"
-          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -5463,31 +5463,6 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 109.22 59.69 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 66bd2b7d-c8b6-4da0-943d-83ef23386ee7)
-    (property "Reference" "#PWR076" (at 109.22 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 109.22 54.61 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 109.22 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 109.22 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3fad4591-269f-440b-bc4d-a3ef1d2cc10b))
-    (instances
-      (project "Alexandria-ng"
-        (path "/d75cf6f5-5ddc-4328-8d5c-12d6ef92ffe7/775fe030-611a-432c-a4dd-ed09d01a918c"
-          (reference "#PWR076") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 161.29 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 70b4ec88-6fdd-418c-b1d2-54d5ff0e4c25)
@@ -5508,6 +5483,31 @@
       (project "Alexandria-ng"
         (path "/d75cf6f5-5ddc-4328-8d5c-12d6ef92ffe7/775fe030-611a-432c-a4dd-ed09d01a918c"
           (reference "#PWR088") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+2V8") (at 109.22 74.93 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 745fc698-06f4-4095-8b1d-8ff573a1ca1c)
+    (property "Reference" "#PWR077" (at 109.22 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+2V8" (at 109.22 71.12 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 109.22 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 109.22 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2070ed2a-1769-428b-8580-24ee0581fdfe))
+    (instances
+      (project "Alexandria-ng"
+        (path "/d75cf6f5-5ddc-4328-8d5c-12d6ef92ffe7/775fe030-611a-432c-a4dd-ed09d01a918c"
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -5678,6 +5678,31 @@
     )
   )
 
+  (symbol (lib_id "power:+2V8") (at 109.22 181.61 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8de1a078-0b69-4afd-a743-bcdf0a87e452)
+    (property "Reference" "#PWR083" (at 109.22 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+2V8" (at 109.22 177.8 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 109.22 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 109.22 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 55a6a31b-a7a0-4ba7-b373-cbea115347af))
+    (instances
+      (project "Alexandria-ng"
+        (path "/d75cf6f5-5ddc-4328-8d5c-12d6ef92ffe7/775fe030-611a-432c-a4dd-ed09d01a918c"
+          (reference "#PWR083") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 156.21 105.41 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 911ab962-6003-47b0-87a0-b2c12b520304)
@@ -5782,6 +5807,31 @@
       (project "Alexandria-ng"
         (path "/d75cf6f5-5ddc-4328-8d5c-12d6ef92ffe7/775fe030-611a-432c-a4dd-ed09d01a918c"
           (reference "#PWR089") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+2V8") (at 109.22 95.25 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 95d7cb1a-2973-45eb-b58c-5e047cea27c9)
+    (property "Reference" "#PWR078" (at 109.22 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+2V8" (at 109.22 91.44 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 109.22 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 109.22 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d0265129-ff23-4aba-8466-0809f25d88c6))
+    (instances
+      (project "Alexandria-ng"
+        (path "/d75cf6f5-5ddc-4328-8d5c-12d6ef92ffe7/775fe030-611a-432c-a4dd-ed09d01a918c"
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -6385,6 +6435,31 @@
     )
   )
 
+  (symbol (lib_id "power:+2V8") (at 109.22 146.05 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid bbae4034-f439-4f85-aaf5-922554b46520)
+    (property "Reference" "#PWR081" (at 109.22 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+2V8" (at 109.22 142.24 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 109.22 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 109.22 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1b4c1453-7523-4695-859e-df93d3686f44))
+    (instances
+      (project "Alexandria-ng"
+        (path "/d75cf6f5-5ddc-4328-8d5c-12d6ef92ffe7/775fe030-611a-432c-a4dd-ed09d01a918c"
+          (reference "#PWR081") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 115.57 148.59 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid be93cba8-f4ef-4117-bafa-e5faa9e06a3f)
@@ -6406,31 +6481,6 @@
       (project "Alexandria-ng"
         (path "/d75cf6f5-5ddc-4328-8d5c-12d6ef92ffe7/775fe030-611a-432c-a4dd-ed09d01a918c"
           (reference "R24") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 109.22 39.37 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c160fdb8-6e90-42f9-83a1-052521d22e4f)
-    (property "Reference" "#PWR066" (at 109.22 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 109.22 34.29 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 109.22 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 109.22 39.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ea33cc34-2758-4c6d-b19d-017bfc0912b4))
-    (instances
-      (project "Alexandria-ng"
-        (path "/d75cf6f5-5ddc-4328-8d5c-12d6ef92ffe7/775fe030-611a-432c-a4dd-ed09d01a918c"
-          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -6624,31 +6674,6 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 109.22 74.93 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d89b151e-01be-4ba2-b635-9e8be7877fac)
-    (property "Reference" "#PWR077" (at 109.22 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 109.22 69.85 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 109.22 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 109.22 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid dd52ec1f-cd4a-43e9-acdd-cb4a9cb8fd31))
-    (instances
-      (project "Alexandria-ng"
-        (path "/d75cf6f5-5ddc-4328-8d5c-12d6ef92ffe7/775fe030-611a-432c-a4dd-ed09d01a918c"
-          (reference "#PWR077") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:+3.3V") (at 217.17 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dac434b7-0829-418a-a289-1a014e4ad494)
@@ -6719,6 +6744,31 @@
       (project "Alexandria-ng"
         (path "/d75cf6f5-5ddc-4328-8d5c-12d6ef92ffe7/775fe030-611a-432c-a4dd-ed09d01a918c"
           (reference "#PWR085") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+2V8") (at 109.22 110.49 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid df8a3982-fdd6-4277-b2f4-61ca9a4e5c84)
+    (property "Reference" "#PWR079" (at 109.22 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+2V8" (at 109.22 106.68 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 109.22 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 109.22 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b2f65c08-ef50-42ad-84f6-6cc04b1024c0))
+    (instances
+      (project "Alexandria-ng"
+        (path "/d75cf6f5-5ddc-4328-8d5c-12d6ef92ffe7/775fe030-611a-432c-a4dd-ed09d01a918c"
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -6826,31 +6876,6 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 109.22 95.25 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ec2b878f-f5a1-44ff-a338-b293914e0c85)
-    (property "Reference" "#PWR078" (at 109.22 99.06 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 109.22 90.17 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 109.22 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 109.22 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bdc40e93-0bd5-4c79-ac4a-60672475c653))
-    (instances
-      (project "Alexandria-ng"
-        (path "/d75cf6f5-5ddc-4328-8d5c-12d6ef92ffe7/775fe030-611a-432c-a4dd-ed09d01a918c"
-          (reference "#PWR078") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 109.22 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ec93cdb1-9ecb-47cc-bc44-9696fa53072b)
@@ -6897,31 +6922,6 @@
       (project "Alexandria-ng"
         (path "/d75cf6f5-5ddc-4328-8d5c-12d6ef92ffe7/775fe030-611a-432c-a4dd-ed09d01a918c"
           (reference "R52") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 109.22 146.05 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f210e2dc-d8d8-4dfb-a445-941c37766379)
-    (property "Reference" "#PWR081" (at 109.22 149.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 109.22 140.97 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 109.22 146.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 109.22 146.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8bb343bd-fab7-4842-8cf2-cecdbadc49a5))
-    (instances
-      (project "Alexandria-ng"
-        (path "/d75cf6f5-5ddc-4328-8d5c-12d6ef92ffe7/775fe030-611a-432c-a4dd-ed09d01a918c"
-          (reference "#PWR081") (unit 1)
         )
       )
     )
