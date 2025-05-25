@@ -139,7 +139,7 @@
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.075,
-        "min_via_diameter": 0.35,
+        "min_via_diameter": 0.45,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
